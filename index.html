@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content="Harish Somsole">
+    <meta name="keywords" content="stop watch">
+    <meta name="description" content="This is the stop watch timer">
+    <meta property="og:image" content="images/stopwatchshareimg.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="436">
+    <meta property="og:image:height" content="228">
+    <meta property="og:title" content="This is the stop watch timer developed by Harish Somsole">
     <title>Stop Watch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -16,9 +25,9 @@
                 00 : 00 : 00
             </div>
             <div class="controlButtons">
-                <button id="pause" onclick="pauseTimer()">Pause</button>
-                <button id="start" onclick="startTimer()">Start</button>
-                <button id="reset" onclick="resetTimer()">Reset</button>
+                <button id="pause" onclick="pauseTimer()"><i class="fa fa-pause"></i> Pause</button>
+                <button id="start" onclick="startTimer()"><i class="fa fa-play"></i> Start</button>
+                <button id="reset" onclick="resetTimer()"><i class="fa fa-refresh"></i> Reset</button>
             </div>
         </div>
     </div>
