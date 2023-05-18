@@ -9,7 +9,7 @@ body {
 }
 
 #start, #pause, #reset, #heading {
-    font-family: cursive 'Courier New', Courier, monospace;
+    font-family: cursive;
 } 
 
 #stopWatch {
