@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(70, 70, 148);
 }
 
 #start, #pause, #reset, #heading {
@@ -18,6 +18,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
+    background-color: rgb(240, 232, 232);
+    margin: 5rem;
 }
 
 #start, #pause, #reset {
@@ -44,16 +46,15 @@ body {
 }
 
 #displayTime {
-    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     margin: 3rem auto;
-    width: 100%;
-    height: 20vh;
-    background-color: rgb(26, 15, 15);
-    color:whitesmoke;
-    font-size: 3rem;
-    text-align: center;
-    padding: 1.8rem;
-    border-radius: 20px;
+    color:rgb(45, 45, 212);
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 30px;
 }
 
 #heading {
@@ -61,3 +62,4 @@ body {
     text-shadow: 1px 1px rgb(141, 49, 49);
     margin: 3rem 0 0;
 }
+    
